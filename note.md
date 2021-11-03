@@ -1,3 +1,7 @@
+### react-router 渲染路由的三种方式和优先级
+children > component > render 
+chidlren  在没有switch的情况下无论路由是否匹配都会渲染  如果有switch 只渲染匹配的  component是组件  children和render 都是函数
+
 ### key 值的作用
 
 1. react源码中会使用key 和 type 标识当前元素的唯一性
